@@ -1,5 +1,5 @@
 # HG2Vec
-
+This is the implemention of the paper "HG2Vec: ImprovedWord Embeddings from Dictionary and Thesaurus Based Heterogeneous Graph". Our paper is accepted by COLING 2022.<br />
 HG2Vec is a language model that learns word embeddings utilizing only dictionaries and thesauri. Our model reaches the state-of-art on multiple word similarity and relatedness benchmarks.<br />
 
 ## Running Environment:
@@ -22,7 +22,7 @@ csv <br />
 
 ## Training:
 
-We already include the prepossessed paths in our repo. To train the file, simply run <br />
+We already include the prepossessed paths in our repo. To reproduce the results, simply run <br />
 ```
 sh run_demo.sh 
 ```
